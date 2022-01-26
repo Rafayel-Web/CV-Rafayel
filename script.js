@@ -4,3 +4,9 @@ const about = document.querySelector(".about");
 const education = document.querySelector(".education");
 const skils = document.querySelector(".skils");
 const gallery = document.querySelector(".gallery");
+
+link.forEach(el => {
+    el.addEventListener('click' , () => {
+        const attr = el.getAttribute('language')
+    })
+})
