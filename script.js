@@ -1,4 +1,3 @@
-
 const langW = document.querySelector(".langWrap");
 const link = document.querySelectorAll("a");
 const about = document.querySelector(".about");
