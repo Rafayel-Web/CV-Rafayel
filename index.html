@@ -4,22 +4,29 @@
   <title>My Cv</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/stylr.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     <header class="home">
-        <nav class="navbar navbar-expand-lg fixed-top" style="background:#201f1b;">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#home" style="color: white;">Home</a>
+        <nav class="navbar navbar-expand-lg fixed-top langWrap" style="background:#201f1b;">
+            <div class="container">
+              <!-- <a class="navbar-brand" href="#home" style="color: white;">Home</a> -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#about" style="color: white;">About</a>
-                  <a class="nav-link" href="#resme"style="color: white;">Education</a>
-                  <a class="nav-link" href="#templation"style="color: white;">My skils</a>
-                  <a class="nav-link" href="#galeria"style="color: white;">Gallery</a>
+              <div class="collapse navbar-collapse justify-content-between p-3" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                  <a class="nav-link about" aria-current="page" href="#about" style="color: white;">About</a>
+                  <a class="nav-link education" href="#resme"style="color: white;">Education</a>
+                  <a class="nav-link skils" href="#templation"style="color: white;">My skils</a>
+                  <a class="nav-link gallery" href="#galeria"style="color: white;">Gallery</a>
                 </div>
+                <div> 
+                  <a href="#"> <img src="images/flag-armenia.png" style="width: 25px;height: 25px;margin-left: 10px;" /></a>
+                  <a href="#"><img src="images/flag-united-states.png" style="width: 25px;height: 25px; margin-left: 10px;" /></a>
+                  <a href="#"><img src="images/russia-png-full-resolution-1399.png" style="width: 25px;height: 25px;margin-left: 10px;" /></a>
+                </div>
+               
               </div>
             </div>
           </nav>
@@ -30,9 +37,8 @@
                     <h3 style="color: grey;text-align: center;font-size: 30px; font-weight: 700;">
                         I'm a Manila based graphic designer, illustrator and webdesigner creating awesome and effective visual identities for companies of all sizes around the globe. Let's start scrolling and learn more about me.
                     </h3>
-                    <img src="images/—Pngtree—instagram icon instagram logo_3560510.png" style="width: 50px;height: 50px;">
-                    <img src="images/—Pngtree—facebook icon facebook logo fb_3560489.png" style="width: 50px;height: 50px;">
-                  </div>
+    
+                </div>
               </div>
           </div>
     </header>
@@ -290,7 +296,7 @@
 
 
 
-
+<script src="script.js"></script>
 <script>
   function topFunction() {
   document.body.scrollTop = 0;
